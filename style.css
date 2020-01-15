@@ -17,30 +17,36 @@
 span{
     font-size: 3rem;
 }
+.heading h3{
+    color: hsl(71, 73%, 54%);
+}
 
  .container {
      background-color: white;
-     max-width: 22rem;
+     max-width: 352px;
      margin: 2vh auto;
-     border-radius: 20px;
+     border-radius: 10px 10px;
      box-shadow: 0px 10px 10px 2px #E6EFF6;
  }
 
  .heading p {
      line-height: 1.6;
-     width: 100%;
+/*     width: 100%;*/
      color: hsl(218, 22%, 67%);
      padding-bottom: 1.2rem;
  }
 
  .heading {
-     padding: 1.5rem 1rem 0rem 1.5rem;
+/*     padding: 1rem 1rem 0rem 1.5rem;*/
+     margin-left: 1.5rem;
      background-color: white;
  }
 
  .heading h1 {
      color: hsl(179, 62%, 43%);
      font-weight: 700;
+     padding-top: 1.5rem;
+     width: 90%;
  }
 
  .subscribe {
@@ -85,7 +91,7 @@ span{
 
 @media screen and (min-width: 700px){
     .container{
-        max-width: 40%;
+        max-width: 600px;
         margin: 20vh auto;
     }
     .sign-btn{
@@ -100,10 +106,5 @@ span{
     .whyus{
         width: 50%;
         padding-top: 0rem;
-    }
-}
-@media screen and (max-width:1200px){
-    .sign-btn{
-        padding: 1rem 20%;
     }
 }
